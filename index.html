@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>网站导航</title>
+<link rel="stylesheet" href="./api/css.css">
+</head>
+<body>
+
+<header>
+    <h1>网站导航</h1>
+    <form id="search-form">
+        <input type="text" id="search-input" placeholder="按任意键直接开始搜索">
+    </form>
+</header>
+
+<nav>
+    <ul id="category-list">
+        <li><button class="category-btn" data-category="">全部</button></li>
+        <li><button class="category-btn" data-category="kun">kun</button></li>
+        <li><button class="category-btn" data-category="工具">工具</button></li>
+        <li><button class="category-btn" data-category="邮箱">邮箱</button></li>
+        <li><button class="category-btn" data-category="学习">学习</button></li>
+        <!-- 可以根据需要添加更多分类按钮 -->
+    </ul>
+</nav>
+
+<section id="site-list">
+    <!-- 这里将会动态生成网站链接 -->
+</section>
+
+<script src="./api/js.js"></script>
+</body>
+</html>
+
